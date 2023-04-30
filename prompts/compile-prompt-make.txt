@@ -1,0 +1,5 @@
+Write a python script that has the following arguments:
+- `--input` - the path to the input text file
+- `--output` - the path to the output text file
+
+The script must replace each instance of "{filepath}" where filepath is a relative path to a text file, with the contents of that text file.
