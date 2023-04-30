@@ -26,7 +26,7 @@ path/to/filetoimport.txt:
 
 result:
 
-inputfile.txt:
+outputfile.txt:
 
 ```
 123
