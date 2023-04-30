@@ -3,7 +3,7 @@
 ```sh
 docker build -t compile-prompt .
 ```
-
+### run
 ```sh
 docker run --rm -v $(pwd):/app/host compile-prompt --input host/inputpath.txt --output host/outputpath.txt
 ```
