@@ -15,7 +15,11 @@ example
 inputfile.txt:
 
 ```
+here is a text file's contents:
+
 {path/to/filetoimport.txt}
+
+Do the following:
 ```
 
 path/to/filetoimport.txt:
@@ -29,5 +33,9 @@ result:
 outputfile.txt:
 
 ```
+here is a text file's contents:
+
 123
+
+Do the following:
 ```
