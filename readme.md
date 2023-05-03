@@ -3,7 +3,7 @@
 ```sh
 docker build -t compile-prompt .
 ```
-
+### run
 ```sh
 docker run --rm -v $(pwd):/app/host compile-prompt --input host/inputpath.txt --output host/outputpath.txt
 ```
@@ -28,7 +28,11 @@ example
 inputfile.txt:
 
 ```
+here is a text file's contents:
+
 {path/to/filetoimport.txt}
+
+Do the following:
 ```
 
 path/to/filetoimport.txt:
@@ -39,8 +43,12 @@ path/to/filetoimport.txt:
 
 result:
 
-inputfile.txt:
+outputfile.txt:
 
 ```
+here is a text file's contents:
+
 123
+
+Do the following:
 ```
